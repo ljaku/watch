@@ -1,0 +1,87 @@
+body {
+    line-height: 1.7em;
+    /**color: #7f8c8d;**/
+    font-size: 13px;
+    /**LJ 20180106**/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.head{
+/**display:block;
+margin:auto;**/
+
+}
+/**LJ 20180122**/
+.content-head{
+	margin-top: 10em;
+    margin-bottom: 10em;	
+}
+
+.subhead {
+    color: grey;
+    text-align: center;
+    font-size: 1.4em;
+    /**letter-spacing: 0.05em;**/
+    /**opacity: 0.8;**/
+}
+
+.ruban{
+background: linear-gradient(to right, rgba(218, 217, 221, 0), rgba(218, 217, 221, 1));
+}
+
+.is-center {
+    text-align: center;
+}
+
+.footer {
+    background: #111;
+    color:#cacaca;
+}
+
+
+.lettrineVert {
+/**font-family: 'Mouse Memoirs', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; **/
+/**float:left;
+/**background: #fff url(images/croqueavatarclair.png) no-repeat center center; **/
+color:#505D26;
+/**text-shadow:1px 2px 4px #000;**/
+font-size:1.5em; 
+/**line-height: 0.1em;**/
+}
+.lettrineOrange {
+/**font-family: 'Mouse Memoirs', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; **/
+/**float:left;
+/**background: #fff url(images/croqueavatarclair.png) no-repeat center center; **/
+color:#CE5219;
+/**text-shadow:1px 2px 4px #000;**/
+font-size:1.5em; 
+/**line-height: 0.1em;**/
+}
+.lettrineBleue {
+/**font-family: 'Mouse Memoirs', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif; **/
+/**float:left;
+/**background: #fff url(images/croqueavatarclair.png) no-repeat center center; **/
+color:#338CCC;
+/**text-shadow:1px 2px 4px #000;**/
+font-size:1.5em;
+/**font-weight: bold;
+/**line-height: 0.1em;**/
+}
+
+ul {
+    list-style-type: none;
+}
+
+.circle-text {
+display: table-cell;
+height: 100px; /*change this and the width
+for the size of your initial circle*/
+width: 100px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+/*make it pretty*/
+/**background: #000;**/
+background: #CE5219;
+color: #fff;
+}
